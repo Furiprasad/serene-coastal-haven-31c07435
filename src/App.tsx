@@ -12,7 +12,6 @@ import About from "./pages/About";
 import PlotsAndVillas from "./pages/PlotsAndVillas";
 import Resort from "./pages/Resort";
 import Amenities from "./pages/Amenities";
-import Location from "./pages/Location";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -34,7 +33,6 @@ const App = () => (
             <Route path="/plots-and-villas" element={<PlotsAndVillas />} />
             <Route path="/resort" element={<Resort />} />
             <Route path="/amenities" element={<Amenities />} />
-            <Route path="/location" element={<Location />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

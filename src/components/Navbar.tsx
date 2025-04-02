@@ -38,7 +38,6 @@ const Navbar: React.FC = () => {
     { name: 'Plots & Villas', path: '/plots-and-villas' },
     { name: 'Resort', path: '/resort' },
     { name: 'Amenities', path: '/amenities' },
-    { name: 'Location', path: '/location' },
     { name: 'Contact Us', path: '/contact' },
   ];
 
@@ -48,7 +47,7 @@ const Navbar: React.FC = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <img 
-            src="/public/lovable-uploads/dc69b3de-af33-4ecb-b7a9-f84bda5edc6d.png" 
+            src="/public/lovable-uploads/3672ad92-be03-475a-8dcd-6108abc00333.png" 
             alt="SVN Bay Parck Logo" 
             className="h-12 md:h-16"
           />

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
@@ -53,7 +54,7 @@ const Resort: React.FC = () => {
             
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="/public/lovable-uploads/ed75d4f1-833c-4e93-91ab-226378d1894a.png" 
+                src="/public/lovable-uploads/bbedfc32-b371-47e9-9257-6b12ce77dfa3.png" 
                 alt="SVN Bay Parck Resort" 
                 className="w-full h-auto"
               />
@@ -145,10 +146,12 @@ const Resort: React.FC = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-xl overflow-hidden">
-              <div className="bg-gray-200 h-48">
-                <div className="flex items-center justify-center h-full bg-bay-blue/10">
-                  <p className="text-bay-blue font-medium">Cottage Image Coming Soon</p>
-                </div>
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src="/public/lovable-uploads/6c2954a1-e05f-4fa6-8180-6c06c819d158.png" 
+                  alt="Deluxe Cottage" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 text-bay-blue">Deluxe Cottage</h3>
@@ -172,10 +175,12 @@ const Resort: React.FC = () => {
             </div>
             
             <div className="bg-white rounded-lg shadow-xl overflow-hidden">
-              <div className="bg-gray-200 h-48">
-                <div className="flex items-center justify-center h-full bg-bay-blue/10">
-                  <p className="text-bay-blue font-medium">Cottage Image Coming Soon</p>
-                </div>
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src="/public/lovable-uploads/3de97397-fec4-4293-b436-22670e4eff06.png" 
+                  alt="Premium Cottage" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 text-bay-blue">Premium Cottage</h3>
@@ -199,10 +204,12 @@ const Resort: React.FC = () => {
             </div>
             
             <div className="bg-white rounded-lg shadow-xl overflow-hidden">
-              <div className="bg-gray-200 h-48">
-                <div className="flex items-center justify-center h-full bg-bay-blue/10">
-                  <p className="text-bay-blue font-medium">Cottage Image Coming Soon</p>
-                </div>
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src="/public/lovable-uploads/9db14964-d321-438d-92b4-98ef0dd0b334.png" 
+                  alt="Luxury Suite" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 text-bay-blue">Luxury Suite</h3>

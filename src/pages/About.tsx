@@ -3,6 +3,23 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { CheckCircle, MapPin, TrendingUp } from 'lucide-react';
 
+const GoogleMap = () => {
+  return (
+    <div className="h-[400px] w-full rounded-lg overflow-hidden shadow-lg">
+      <iframe 
+        src="https://maps.app.goo.gl/Lhz95ZsGrXbuuY217" 
+        width="100%" 
+        height="100%" 
+        style={{ border: 0 }} 
+        allowFullScreen 
+        loading="lazy" 
+        referrerPolicy="no-referrer-when-downgrade"
+        title="SVN Bay Parck Location"
+      ></iframe>
+    </div>
+  );
+};
+
 const AboutPage: React.FC = () => {
   return (
     <>
@@ -44,7 +61,7 @@ const AboutPage: React.FC = () => {
             </div>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="/public/lovable-uploads/ed75d4f1-833c-4e93-91ab-226378d1894a.png" 
+                src="/public/lovable-uploads/a1e86bb0-94d3-48b7-bca8-6d0f729ff8e6.png" 
                 alt="Bay of Bengal Beachfront" 
                 className="w-full h-auto"
               />
@@ -100,51 +117,31 @@ const AboutPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Location Advantages */}
+      {/* Location Map */}
       <section className="section-padding">
         <div className="container-custom">
-          <h2 className="section-title">Strategic Location</h2>
+          <h2 className="section-title">Our Location</h2>
+          <p className="text-center text-lg text-gray-700 max-w-3xl mx-auto mb-8">
+            SVN Bay Parck is located at Koshta Junction, Srikakulam, with easy access to major landmarks and transportation hubs.
+          </p>
           
-          <div className="bg-white rounded-lg shadow-xl overflow-hidden">
-            <div className="grid grid-cols-1 lg:grid-cols-2">
-              <div className="p-8">
-                <h3 className="text-2xl font-bold text-bay-blue mb-6">Enviable Connectivity</h3>
-                <p className="text-gray-700 mb-6">
-                  SVN Bay Parck enjoys excellent connectivity to major landmarks and transportation hubs, making it easily accessible while maintaining its serene beachfront atmosphere.
-                </p>
-                
-                <ul className="space-y-4">
-                  {[
-                    { name: "Chennai-Kolkata Highway", distance: "10 km" },
-                    { name: "Bhogapuram Airport", distance: "35 km" },
-                    { name: "Vizianagaram City", distance: "40 km" },
-                    { name: "Srikakulam City", distance: "25 km" }
-                  ].map((location, index) => (
-                    <li key={index} className="flex items-start">
-                      <MapPin className="w-5 h-5 text-bay-teal mr-3 mt-1" />
-                      <div>
-                        <span className="font-medium text-bay-blue">{location.name}</span>
-                        <span className="text-gray-600 ml-2">({location.distance})</span>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-                
-                <div className="mt-8">
-                  <Link to="/location" className="btn-primary">
-                    View Detailed Location
-                  </Link>
+          <GoogleMap />
+          
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { name: "Chennai-Kolkata Highway", distance: "10 km" },
+              { name: "Bhogapuram Airport", distance: "35 km" },
+              { name: "Vizianagaram City", distance: "40 km" },
+              { name: "Srikakulam City", distance: "25 km" }
+            ].map((location, index) => (
+              <div key={index} className="flex items-start">
+                <MapPin className="w-5 h-5 text-bay-teal mr-3 mt-1" />
+                <div>
+                  <span className="font-medium text-bay-blue">{location.name}</span>
+                  <span className="text-gray-600 ml-2">({location.distance})</span>
                 </div>
               </div>
-              
-              <div className="bg-gray-200 h-full min-h-[300px] relative">
-                <div className="absolute inset-0 flex items-center justify-center bg-bay-blue/10">
-                  <div className="bg-white p-4 rounded-lg shadow-lg">
-                    <p className="text-bay-blue font-medium">Interactive Map Coming Soon</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>

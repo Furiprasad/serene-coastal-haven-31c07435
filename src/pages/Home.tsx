@@ -17,7 +17,7 @@ const Home: React.FC = () => {
       <section className="relative h-screen flex items-center">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/public/lovable-uploads/91ffd1c8-0809-4f82-b79b-f64de90c40b0.png"
+            src="/public/lovable-uploads/0f375d58-32b1-45dc-8816-89f24aa5bcc4.png"
             alt="Bay of Bengal Beachfront" 
             className="w-full h-full object-cover"
           />
@@ -176,7 +176,7 @@ const Home: React.FC = () => {
           </div>
           
           <div className="text-center mt-12">
-            <Link to="/location" className="btn-primary">
+            <Link to="/about" className="btn-primary">
               View Location Details
             </Link>
           </div>
