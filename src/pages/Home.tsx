@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
@@ -16,7 +17,7 @@ const Home: React.FC = () => {
       <section className="relative h-screen flex items-center">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/public/lovable-uploads/ed75d4f1-833c-4e93-91ab-226378d1894a.png"
+            src="/public/lovable-uploads/91ffd1c8-0809-4f82-b79b-f64de90c40b0.png"
             alt="Bay of Bengal Beachfront" 
             className="w-full h-full object-cover"
           />
