@@ -1,11 +1,10 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
   PalmtreeIcon, 
   Hotel, 
   Home as HomeIcon, 
-  Swimming, 
+  Waves, 
   MapPin, 
   ArrowRight 
 } from 'lucide-react';
@@ -78,7 +77,7 @@ const Home: React.FC = () => {
             
             <div className="bg-white rounded-lg shadow-lg p-8 text-center hover-scale">
               <div className="inline-flex items-center justify-center bg-resort-green text-white rounded-full w-16 h-16 mb-6">
-                <Swimming className="h-8 w-8" />
+                <Waves className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-bay-blue">Spectacular Amenities</h3>
               <p className="text-gray-600">

@@ -1,10 +1,9 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
   Shield, 
   Home, 
-  Swim, 
+  Waves, 
   Dumbbell, 
   Trophy, 
   Bike,
@@ -95,7 +94,7 @@ const Amenities: React.FC = () => {
     },
     {
       name: "Swimming Pool",
-      icon: <Swim className="w-10 h-10" />,
+      icon: <Waves className="w-10 h-10" />,
       description: "Large swimming pool with separate kids' area, perfect for relaxation and recreation."
     },
     {
@@ -182,7 +181,7 @@ const Amenities: React.FC = () => {
                 <div className="h-32 bg-bay-teal flex items-center justify-center text-white">
                   <svg className="w-16 h-16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2 22H22" stroke="currentColor" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M2.9502 22L3.0002 9.97C3.0002 9.36 3.2902 8.78 3.7702 8.4L10.7702 2.95C11.4902 2.39 12.5002 2.39 13.2302 2.95L20.2302 8.39C20.7202 8.78 21.0002 9.35 21.0002 9.97V22" stroke="currentColor" strokeWidth="1.5" strokeMiterlimit="10" strokeLinejoin="round"/>
+                    <path d="M2.9502 22L3.0002 9.97C3.0002 9.36 3.2902 8.78 3.7702 8.4L10.7702 2.95C11.4902 2.39 12.5002 2.39 13.2302 2.95L20.2302 8.39C20.7202 8.78 21.0002 9.35 21.0002 9.97V22" stroke="currentColor" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round"/>
                     <path d="M15.5 11H8.5C7.67 11 7 11.67 7 12.5V22H17V12.5C17 11.67 16.33 11 15.5 11Z" stroke="currentColor" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M10 16.25V16.75" stroke="currentColor" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>

@@ -1,8 +1,7 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
-  Swimming, 
+  Waves, 
   Utensils, 
   Dumbbell, 
   Users, 
@@ -71,7 +70,7 @@ const Resort: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="amenity-card hover-scale">
               <div className="w-16 h-16 bg-bay-blue text-white rounded-full flex items-center justify-center mb-4">
-                <Swimming className="w-8 h-8" />
+                <Waves className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-bold mb-2 text-bay-blue">Swimming Pool</h3>
               <p className="text-gray-600">
