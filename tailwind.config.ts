@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -18,6 +19,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ["Gotham", "sans-serif"],
+				gotham: ["Gotham", "sans-serif"],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,6 +66,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// SVN Bay Parck brand colors
+				"bay-blue": {
+					DEFAULT: "#0d4c92", // Deep Blue (C100 M82 Y3 K15)
+					light: "#1a5da3",
+					dark: "#093c75",
+				},
+				"bay-teal": {
+					DEFAULT: "#4bb4de", // Light Teal (C81 M34 Y0 K0)
+					light: "#6fc2e4",
+					dark: "#3790b5",
+				},
+				resort: {
+					green: "#00A651",
+					orange: "#F7941D",
 				}
 			},
 			borderRadius: {
@@ -84,11 +104,32 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'wave': {
+					'0%': { transform: 'translateX(0)' },
+					'50%': { transform: 'translateX(-25%)' },
+					'100%': { transform: 'translateX(-50%)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out',
+				'wave': 'wave 15s linear infinite'
+			},
+			backgroundImage: {
+				'beach-pattern': "url('/public/lovable-uploads/ed75d4f1-833c-4e93-91ab-226378d1894a.png')",
+				'property-map': "url('/public/lovable-uploads/a2eb2644-2fd9-407c-bc89-5ef37c027696.png')",
 			}
 		}
 	},
