@@ -61,7 +61,7 @@ const AboutPage: React.FC = () => {
             </div>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="/public/lovable-uploads/a1e86bb0-94d3-48b7-bca8-6d0f729ff8e6.png" 
+                src="/public/lovable-uploads/c6df5e53-21e6-49ca-b611-08734bc20a3c.png" 
                 alt="Bay of Bengal Beachfront" 
                 className="w-full h-auto"
               />

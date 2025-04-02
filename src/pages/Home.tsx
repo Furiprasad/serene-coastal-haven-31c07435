@@ -17,7 +17,7 @@ const Home: React.FC = () => {
       <section className="relative h-screen flex items-center">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/public/lovable-uploads/0f375d58-32b1-45dc-8816-89f24aa5bcc4.png"
+            src="/public/lovable-uploads/b56c3f24-9d75-44ae-888e-7e3e55e3a753.png"
             alt="Bay of Bengal Beachfront" 
             className="w-full h-full object-cover"
           />

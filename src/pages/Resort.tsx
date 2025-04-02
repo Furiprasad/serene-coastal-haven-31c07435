@@ -54,7 +54,7 @@ const Resort: React.FC = () => {
             
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="/public/lovable-uploads/bbedfc32-b371-47e9-9257-6b12ce77dfa3.png" 
+                src="/public/lovable-uploads/b97e9c43-90ba-4fa5-bf40-2f854c865e4e.png" 
                 alt="SVN Bay Parck Resort" 
                 className="w-full h-auto"
               />
@@ -148,7 +148,7 @@ const Resort: React.FC = () => {
             <div className="bg-white rounded-lg shadow-xl overflow-hidden">
               <div className="h-48 overflow-hidden">
                 <img 
-                  src="/public/lovable-uploads/6c2954a1-e05f-4fa6-8180-6c06c819d158.png" 
+                  src="/public/lovable-uploads/9c60e1af-5055-4141-b90a-5dfe811971e3.png" 
                   alt="Deluxe Cottage" 
                   className="w-full h-full object-cover"
                 />
@@ -177,7 +177,7 @@ const Resort: React.FC = () => {
             <div className="bg-white rounded-lg shadow-xl overflow-hidden">
               <div className="h-48 overflow-hidden">
                 <img 
-                  src="/public/lovable-uploads/3de97397-fec4-4293-b436-22670e4eff06.png" 
+                  src="/public/lovable-uploads/df99652f-94f4-4df2-95a4-999107674b7c.png" 
                   alt="Premium Cottage" 
                   className="w-full h-full object-cover"
                 />
@@ -206,7 +206,7 @@ const Resort: React.FC = () => {
             <div className="bg-white rounded-lg shadow-xl overflow-hidden">
               <div className="h-48 overflow-hidden">
                 <img 
-                  src="/public/lovable-uploads/9db14964-d321-438d-92b4-98ef0dd0b334.png" 
+                  src="/public/lovable-uploads/b66fc727-b05e-4dc2-bade-dc62169a3ba9.png" 
                   alt="Luxury Suite" 
                   className="w-full h-full object-cover"
                 />

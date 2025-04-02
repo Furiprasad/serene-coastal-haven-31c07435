@@ -44,13 +44,23 @@ const Navbar: React.FC = () => {
   return (
     <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'}`}>
       <div className="container-custom mx-auto flex justify-between items-center">
-        {/* Logo */}
+        {/* Logo - Different versions based on scroll state */}
         <Link to="/" className="flex items-center">
-          <img 
-            src="/public/lovable-uploads/3672ad92-be03-475a-8dcd-6108abc00333.png" 
-            alt="SVN Bay Parck Logo" 
-            className="h-12 md:h-16"
-          />
+          {isScrolled || location.pathname !== '/' ? (
+            // Colored logo for scrolled state or non-home pages
+            <img 
+              src="/public/lovable-uploads/c7858a02-4cbe-484b-b0c6-1078109a9e7f.png" 
+              alt="SVN Bay Parck Logo" 
+              className="h-12 md:h-16"
+            />
+          ) : (
+            // White logo for transparent header on home page
+            <img 
+              src="/public/lovable-uploads/36f81013-5426-4b51-859d-ca1fc7a945cd.png" 
+              alt="SVN Bay Parck Logo" 
+              className="h-12 md:h-16"
+            />
+          )}
         </Link>
 
         {/* Desktop Navigation */}

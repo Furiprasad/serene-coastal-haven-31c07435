@@ -20,9 +20,9 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <Link to="/" className="inline-block mb-4">
               <img 
-                src="/public/lovable-uploads/be632cb3-0dae-478b-bddc-7e7b3db00cce.png" 
+                src="/public/lovable-uploads/36f81013-5426-4b51-859d-ca1fc7a945cd.png" 
                 alt="SVN Bay Parck Logo" 
-                className="h-16 invert"
+                className="h-16"
               />
             </Link>
             <p className="mb-4">
